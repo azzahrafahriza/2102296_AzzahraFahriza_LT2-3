@@ -1,0 +1,57 @@
+/* modul 2 */
+
+section {
+    display: grid;
+    grid-template-columns: 200px 400px 400px 400px 400px;
+}
+
+.item-grid {
+    background-color: orange;
+    padding: 20px;
+    color: white;
+    border: 1px solid white;
+}
+
+#logo{
+    grid-column: 1 / 2;
+    height: 145px;
+}
+
+header{
+    grid-column: 2 / 5;
+    height: 145px;
+    width: 1400px;
+}
+
+nav{
+    grid-column: 1 / 5;
+    height: 75px;
+    width: 1600px;
+}
+
+#content1{
+    grid-column: 1 / 4;
+    height: 355px;
+    width: 1400px;
+}
+
+#content2{
+    grid-column: 1 / 4;
+    height: 355px;
+    width: 1400px;
+}
+
+aside{
+    grid-column: 4/5;
+    grid-row: 3/5;
+    width: 600px;
+}
+
+footer{
+    grid-column: 1 / 5;
+    height: 78px;
+    width: 1600px;
+}
+
+/* modul 3 */
+
